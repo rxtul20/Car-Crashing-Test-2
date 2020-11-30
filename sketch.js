@@ -14,8 +14,7 @@ function setup() {
 
 function draw() {
   background(255,255,255);
-  if(bullet.isTouching(wall)){
-    bullet.collide(wall)
+  if(hasCollided){
     damage = 0.5*weight*speed*speed/thickness*thickness*thickness;
     if (damage>10) {
     bullet.shapeColor = 'green'  
