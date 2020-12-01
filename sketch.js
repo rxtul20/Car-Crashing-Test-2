@@ -19,9 +19,6 @@ function draw() {
     if (damage>10) {
     bullet.shapeColor = 'green'  
     }
-    if (damage<180 && damage>100) {
-      bullet.shapeColor = 'yellow'
-    }
     if (damage<10) {
     bullet.shapeColor = 'red'  
     }
